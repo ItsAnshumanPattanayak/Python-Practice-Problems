@@ -4,7 +4,7 @@ write a class "calculator" capable of finding square, cube and square root of a 
 
 class calculator:
     
-    user = int(input("Enter your number : "))
+    user = int(input("Enter your number : ")) 
 
     def sqaure(self):
         print(f"The square of {self.user} is {self.user**2}")
