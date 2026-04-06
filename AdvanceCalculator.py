@@ -4,7 +4,7 @@ def sum():
     a = int(input("Enter your number 1:"))
     b = int(input("Enter your number 2 :"))
     addition = a+b
-    print( "The sum of" , a , "and", b , "is" ,  addition)
+    print( "The sum of" , a , "and", b , "is" ,  addition) 
 
 def minus():
     a = int(input("Enter your number 1:"))
