@@ -1,4 +1,12 @@
-#Set the ticket price based on age and weather the person is a student or not
+'''
+Write a Python program for a cinema's digital ticketing system that calculates 
+prices based on age and student status. Toddlers (under 5) are Free, children 
+(5–12) pay Rs 150, and seniors (over 50) pay Rs 500. For those aged 13–17, the 
+price is Rs 200 for students and Rs 250 for others, while those aged 18–50 pay 
+Rs 300 if they are students and Rs 350 otherwise. Your code must accept age (integer) 
+and student status (y/n) as inputs, handle case sensitivity for the status, and output 
+the final ticket price clearly
+'''
 age = int(input("Enter your age :"))
 is_student = input("Are you a student ( y / n )").lower()
 
