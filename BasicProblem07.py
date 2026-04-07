@@ -10,7 +10,7 @@ the final ticket price clearly
 age = int(input("Enter your age :"))
 is_student = input("Are you a student ( y / n )").lower()
 
-#loops 
+# Using conditional statetement
 if age < 5:
     price = "Free"
 elif age <= 12 :
