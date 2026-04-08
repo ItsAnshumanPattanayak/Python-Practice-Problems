@@ -2,7 +2,7 @@ Take a number from user and check if it is even or odd
 Find the largest of three numbers
 Print numbers from 1 to 10 using a loop
 Find the sum of first n natural numbers
-Check if a number is positive, negative, or zero
+Check if a number is positive, negative, or zero  
 Print the multiplication table of a number
 Find the factorial of a number
 Check whether a number is prime
