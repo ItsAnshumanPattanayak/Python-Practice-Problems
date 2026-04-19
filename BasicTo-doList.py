@@ -44,3 +44,31 @@ while True :
                 print(k,end=" \n")
         else : 
             print("\nInavlid Input. TRY AGAIN!!\n")
+    #check the tasks 
+
+    if main == 'check':
+        print("\nYour To-do list is :\n")
+        for l in lst:
+            print(l,end=" \n")
+        print()
+    
+    #completed tasks
+
+    if main == 'complete':
+        comp = input("\nEnter the task that you have completed : ")
+        lst.remove(comp)
+        print(f"Congratulations !! You have completed the {comp} task ")
+        brand = input("\nWanna to add a new task y/n ? :")
+        if brand == 'y':
+            brand_data = input("\nAdd New Task :")
+            lst.append(brand_data)
+            print(f"\n{brand_data} was added to To-Do List\n")
+            for m in lst:
+                print(m,end=" \n")
+            print()
+        elif brand =='n':
+            print("\nYour existing To-Do list is :\n")
+            for o in lst:
+                print(o,end=" \n")
+        else : 
+            print("\nInavlid Input. TRY AGAIN!!\n")
