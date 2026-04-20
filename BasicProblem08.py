@@ -11,3 +11,5 @@ if unit == "C":
     cel(temp,unit)
 elif unit == "F":
     farn(temp,unit)
+else :
+    print("Invalid Input!!")
