@@ -1,5 +1,5 @@
 lst = []
-print("Welcome to the To-Do List Tracking :) Made by Anshuman Pattanayak Using python")
+print("Welcome to the To-Do List Tracking :) Made by Anshuman Pattanayak Using python") 
 
 while True :
 
