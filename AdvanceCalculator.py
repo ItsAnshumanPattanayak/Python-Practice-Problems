@@ -1,4 +1,4 @@
-'''Design and implement a menu-driven calculator application in Python   
+'''Design and implement a menu-driven calculator application in Python    
 that performs basic arithmetic operations using functions.'''
 def sum():
     a = int(input("Enter your number 1:"))
