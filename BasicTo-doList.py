@@ -3,7 +3,7 @@ print("Welcome to the To-Do List Tracking :) Made by Anshuman Pattanayak Using p
 
 while True :
 
-    main = input("\nChoose one of this action (add a task(add) , delete a task(delete), complete a task(complete) , check tasks (check), quit the application (quit)):\n")
+    main = input("\nChoose one of this action (add a task(add) , delete a task(delete), complete a task(complete) , check tasks (check), quit the application (quit)):\n") 
     if main == 'add':
         
 
