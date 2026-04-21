@@ -1,2 +1,0 @@
-Make a calculator using functions & Recursion, loops 
-make a snake water gun game 
