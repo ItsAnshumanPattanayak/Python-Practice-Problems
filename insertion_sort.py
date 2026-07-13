@@ -13,7 +13,6 @@ def insertion_sort(arr):
     return arr
 
 
-
 nums = [14,53,23,9,1,22]
 sorted_array = insertion_sort(nums)
 print("Sorted Array:" , sorted_array)
